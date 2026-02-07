@@ -157,20 +157,22 @@ footer {
   text-align: center;
   background: #020617;
 }
+
+/* PROJECT CARD DEFAULT */
 .project-card {
-  background: #0b1220;
+  background: #020617;
   border-radius: 20px;
   padding: 30px;
   transition: all 0.3s ease;
 }
 
-/* SAME BLUE EFFECT AS SERVICES */
+/* PROJECT CARD HOVER – FULL BLUE */
 .project-card:hover {
-  background: #38bdf8;
-  color: #020617;
+  background: #38bdf8; /* SOLID BLUE */
   transform: translateY(-8px);
 }
 
+/* TEXT COLOR ON HOVER */
 .project-card:hover h3,
 .project-card:hover p,
 .project-card:hover a {
