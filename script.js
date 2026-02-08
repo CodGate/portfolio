@@ -25,3 +25,9 @@ document.addEventListener('mousemove', (e) => {
 document.addEventListener('mouseup', () => {
   isDragging = false;
 });
+
+document.querySelectorAll(".skill-toggle").forEach(skill => {
+  skill.addEventListener("click", () => {
+    skill.classList.toggle("active");
+  });
+});
