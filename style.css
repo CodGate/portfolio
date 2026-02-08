@@ -224,3 +224,27 @@ footer {
 .contact-item i {
   font-size: 1.3rem;
 }
+
+.skill-card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.skill-card:hover {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.skill-detail {
+  display: none;
+  margin-top: 15px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.skill-card.active .skill-detail {
+  display: block;
+}
