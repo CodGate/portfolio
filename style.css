@@ -260,4 +260,22 @@ footer {
 }
 
 
+/* Skill Detail Headings */
+.skill-detail strong {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #ffffff; /* Strong contrast */
+  letter-spacing: 0.5px;
+}
+
+/* Skill Detail Text */
+.skill-detail p {
+  color: #e6f6ff; /* Soft readable text */
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
 
