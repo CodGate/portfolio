@@ -278,4 +278,21 @@ footer {
   line-height: 1.7;
 }
 
+/* === Skill Detail Headings (FORCE COLOR FIX) === */
+.skill-detail strong {
+  color: #facc15 !important; /* Gold / Eye Catcher */
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  letter-spacing: 0.6px;
+}
+
+/* Skill Detail Text */
+.skill-detail p {
+  color: #e6f6ff !important;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
 
