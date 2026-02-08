@@ -199,3 +199,28 @@ footer {
 .whatsapp-float:active {
   cursor: grabbing;
 }
+
+.contact-info {
+  margin-top: 25px;
+}
+
+.contact-item {
+  margin: 10px 0;
+}
+
+.contact-item a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #38bdf8;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  color: #22d3ee;
+}
+
+.contact-item i {
+  font-size: 1.3rem;
+}
