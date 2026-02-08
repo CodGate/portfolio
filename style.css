@@ -113,18 +113,7 @@ h2 {
   color: #020617;
 }
 
-/* Skill Toggle Detail (HIDE BY DEFAULT) */
-.skill-detail {
-  display: none;
-  margin-top: 15px;
-  line-height: 1.6;
-  color: #cbd5f5;
-}
 
-/* Cursor show clickable */
-.skill-toggle {
-  cursor: pointer;
-}
 
 /* PROJECTS */
 .projects-grid {
@@ -238,14 +227,6 @@ footer {
   font-size: 1.3rem;
 }
 
-.skill-card {
-  background: #020617;
-  padding: 20px;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
 /* Skill Detail Hidden by Default */
 .skill-detail {
   display: none;
@@ -259,18 +240,6 @@ footer {
   display: block;
 }
 
-
-/* Skill Detail Headings */
-.skill-detail strong {
-  display: block;
-  margin-top: 18px;
-  margin-bottom: 6px;
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: #ffffff; /* Strong contrast */
-  letter-spacing: 0.5px;
-}
-
 /* Skill Detail Text */
 .skill-detail p {
   color: #e6f6ff; /* Soft readable text */
@@ -278,39 +247,33 @@ footer {
   line-height: 1.7;
 }
 
-/* === Skill Detail Headings (FORCE COLOR FIX) === */
-.skill-detail strong {
-  color: #facc15 !important; /* Gold / Eye Catcher */
-  font-size: 1.15rem !important;
-  font-weight: 800 !important;
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  letter-spacing: 0.6px;
-}
-
-/* Skill Detail Text */
-.skill-detail p {
-  color: #e6f6ff !important;
-  font-size: 0.95rem;
-  line-height: 1.7;
-}
+/* ===== SKILLS (FINAL, GLOBAL & STABLE) ===== */
 
 .skill-detail {
   display: none;
   margin-top: 15px;
-  line-height: 1.6;
-  color: #e5e7eb;
 }
 
 .skill-card.active .skill-detail {
   display: block;
 }
 
+/* Skill headings (gold, eye-catcher) */
 .skill-heading {
-  font-weight: 700;
-  color: #0f172a;
-  margin-top: 12px;
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  color: #facc15; /* GOLD */
+}
+
+/* Skill detail text */
+.skill-detail p {
+  color: #e6f6ff;
+  font-size: 0.95rem;
+  line-height: 1.7;
 }
 
 .skill-toggle {
