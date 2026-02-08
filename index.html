@@ -259,6 +259,19 @@
 >
   <i class="fab fa-whatsapp"></i>
 </a>
+
+
+  <script>
+  document.querySelectorAll(".skill-toggle").forEach(card => {
+    card.addEventListener("click", () => {
+      const detail = card.querySelector(".skill-detail");
+      if (detail) {
+        detail.style.display =
+          detail.style.display === "block" ? "none" : "block";
+      }
+    });
+  });
+</script>
   
 </body>
 </html>
