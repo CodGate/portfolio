@@ -195,16 +195,28 @@
 <!-- CONTACT -->
 <section id="contact" class="section" data-aos="fade-up">
   <h2>Contact Me</h2>
-  <form class="contact-form">
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Your Message"></textarea>
+
+  <!-- EMAIL FORM (FORM SPREE - LIVE) -->
+  <form action="https://formspree.io/f/mojnqrln" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
     <button type="submit" class="btn primary">Send Message</button>
   </form>
+
+  <!-- SOCIAL / DIRECT CONTACT -->
   <div class="socials">
-    <a href="#"><i class="fab fa-github"></i></a>
-    <a href="#"><i class="fab fa-linkedin"></i></a>
-    <a href="#"><i class="fab fa-whatsapp"></i></a>
+    <a href="mailto:shahzad7671@gmail.com" target="_blank" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+
+    <a href="https://wa.me/923005979388" target="_blank" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="https://github.com/CodGate" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
   </div>
 </section>
 
