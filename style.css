@@ -246,6 +246,18 @@ footer {
   transition: 0.3s ease;
 }
 
+/* Skill Detail Hidden by Default */
+.skill-detail {
+  display: none;
+  margin-top: 15px;
+  line-height: 1.6;
+  color: #cbd5f5;
+}
+
+/* When active → show detail */
+.skill-card.active .skill-detail {
+  display: block;
+}
 
 
 
