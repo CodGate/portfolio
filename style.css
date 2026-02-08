@@ -296,3 +296,24 @@ footer {
   line-height: 1.7;
 }
 
+.skill-detail {
+  display: none;
+  margin-top: 15px;
+  line-height: 1.6;
+  color: #e5e7eb;
+}
+
+.skill-card.active .skill-detail {
+  display: block;
+}
+
+.skill-heading {
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 12px;
+}
+
+.skill-toggle {
+  cursor: pointer;
+}
+
