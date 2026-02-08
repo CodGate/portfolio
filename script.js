@@ -3,24 +3,23 @@ AOS.init({
   once: true
 });
 
-const dragBtn = document.querySelector('.whatsapp-float');
+const btn = document.querySelector('.whatsapp-float');
 
 let isDragging = false;
-let offsetX = 0;
-let offsetY = 0;
+let offsetX, offsetY;
 
-dragBtn.addEventListener('mousedown', (e) => {
+btn.addEventListener('mousedown', (e) => {
   isDragging = true;
-  offsetX = e.clientX - dragBtn.getBoundingClientRect().left;
-  offsetY = e.clientY - dragBtn.getBoundingClientRect().top;
+  offsetX = e.clientX - btn.offsetLeft;
+  offsetY = e.clientY - btn.offsetTop;
 });
 
 document.addEventListener('mousemove', (e) => {
   if (!isDragging) return;
-  dragBtn.style.left = `${e.clientX - offsetX}px`;
-  dragBtn.style.top = `${e.clientY - offsetY}px`;
-  dragBtn.style.right = 'auto';
-  dragBtn.style.bottom = 'auto';
+  btn.style.left = e.clientX - offsetX + 'px';
+  btn.style.top = e.clientY - offsetY + 'px';
+  btn.style.right = 'auto';
+  btn.style.bottom = 'auto';
 });
 
 document.addEventListener('mouseup', () => {
