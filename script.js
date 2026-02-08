@@ -34,3 +34,9 @@ document.querySelectorAll('.skill-toggle').forEach(skill => {
       detail.style.display === 'block' ? 'none' : 'block';
   });
 });
+
+document.querySelectorAll(".skill-toggle").forEach(card => {
+  card.addEventListener("click", () => {
+    card.classList.toggle("active");
+  });
+});
