@@ -26,8 +26,11 @@ document.addEventListener('mouseup', () => {
   isDragging = false;
 });
 
-document.querySelectorAll(".skill-toggle").forEach(skill => {
-  skill.addEventListener("click", () => {
-    skill.classList.toggle("active");
+// Skill toggle on click
+document.querySelectorAll('.skill-toggle').forEach(skill => {
+  skill.addEventListener('click', () => {
+    const detail = skill.querySelector('.skill-detail');
+    detail.style.display =
+      detail.style.display === 'block' ? 'none' : 'block';
   });
 });
